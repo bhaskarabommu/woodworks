@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Wood Creations - Premium Wood Carving & Custom Woodworks</title>
+    <meta name="description" content="Master Wood Creations specializes in custom doors, staircase components, wood carvings, and industrial woodworking services. Premium quality craftsmanship.">
+    <meta name="keywords" content="wood carving, custom doors, staircase components, religious idols, decorative panels, laser cutting, woodworking">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>Master Wood Creations</h2>
+                <span class="tagline">Premium Wood Carving & Custom Woodworks</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#categories" class="nav-link">Products</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Premium Wood Carving & Custom Woodworks</h1>
+            <p>Discover our extensive collection of handcrafted doors, staircase components, religious artifacts, and custom wood carvings. Each piece is meticulously crafted with traditional techniques and modern precision.</p>
+            <div class="hero-buttons">
+                <a href="#categories" class="btn btn--primary btn--lg">Explore Products</a>
+                <a href="#contact" class="btn btn--outline btn--lg">Get Quote</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">20+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Product Categories</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <p class="section-subtitle">Showcasing our finest woodworking creations</p>
+            <div class="featured-grid">
+                <div class="featured-card" data-category="doors">
+                    <div class="featured-image">
+                        <div class="placeholder-image">🚪 Premium Entrance Doors</div>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Premium Entrance Doors</h3>
+                        <p>Hand-carved entrance doors with traditional motifs</p>
+                        <button class="btn btn--outline btn--sm view-category-btn" data-category="doors">View More</button>
+                    </div>
+                </div>
+                <div class="featured-card" data-category="staircase">
+                    <div class="featured-image">
+                        <div class="placeholder-image">🏛️ Decorative Staircase Posts</div>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Decorative Staircase Posts</h3>
+                        <p>Elegant posts with intricate carvings</p>
+                        <button class="btn btn--outline btn--sm view-category-btn" data-category="staircase">View More</button>
+                    </div>
+                </div>
+                <div class="featured-card" data-category="specials">
+                    <div class="featured-image">
+                        <div class="placeholder-image">🕉️ Religious Idols</div>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Religious Idols</h3>
+                        <p>Sacred sculptures carved with devotion</p>
+                        <button class="btn btn--outline btn--sm view-category-btn" data-category="specials">View More</button>
+                    </div>
+                </div>
+                <div class="featured-card" data-category="carvings">
+                    <div class="featured-image">
+                        <div class="placeholder-image">🎨 Custom Inlay Work</div>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Custom Inlay Work</h3>
+                        <p>Artistic inlay patterns and designs</p>
+                        <button class="btn btn--outline btn--sm view-category-btn" data-category="carvings">View More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2>Product Categories</h2>
+            <p class="section-subtitle">Comprehensive collection of woodworking solutions</p>
+            
+            <!-- Category Filter -->
+            <div class="category-filter">
+                <!-- <button class="filter-btn active" data-filter="all">All Products</button> -->
+                <button class="filter-btn" data-filter="doors">Doors</button>
+                <button class="filter-btn" data-filter="staircase">Staircase</button>
+                <button class="filter-btn" data-filter="carvings">Carvings</button>
+                <button class="filter-btn" data-filter="specials">Special Items</button>
+                <button class="filter-btn" data-filter="custom">Custom Services</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+            </div>
+
+            <!-- Categories Grid -->
+            <div class="categories-grid">
+                <!-- Doors Category -->
+                <div class="category-section" data-category="doors">
+                    <div class="category-header">
+                        <h3>Doors</h3>
+                        <p>Custom wooden doors for every need</p>
+                    </div>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🚪 Single Entrance</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Entrance Door - Single</h4>
+                                <p>Premium single entrance doors with intricate carvings</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🚪🚪 Double Entrance</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Entrance Door - Double</h4>
+                                <p>Grand double entrance doors for impressive entrances</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🕉️ Pooja Single</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Pooja Doors - Single</h4>
+                                <p>Sacred single doors with traditional motifs</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🕉️🕉️ Pooja Double</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Pooja Doors - Double</h4>
+                                <p>Elaborate double doors for prayer rooms</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🏠 Interior</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Interior Doors</h4>
+                                <p>Elegant interior doors for modern homes</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Staircase Components Category -->
+                <div class="category-section" data-category="staircase">
+                    <div class="category-header">
+                        <h3>Staircase Components</h3>
+                        <p>Complete staircase solutions and components</p>
+                    </div>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🏛️ Staircase Posts</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Staircase Posts</h4>
+                                <p>Handcrafted staircase posts in various designs</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">👑 Master Posts</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Master Staircase Posts</h4>
+                                <p>Premium master posts for grand staircases</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🔹 Carved Caps</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Carved Caps</h4>
+                                <p>Decorative caps for staircase posts</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">✋ Hand Rails</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Hand Rails</h4>
+                                <p>Ergonomic and beautiful handrails</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🦵 Table Legs</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Table Legs</h4>
+                                <p>Custom carved table legs and supports</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wood Carvings Category -->
+                <div class="category-section" data-category="carvings">
+                    <div class="category-header">
+                        <h3>Wood Carvings</h3>
+                        <p>Artistic wood carvings and decorative elements</p>
+                    </div>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🏺 Interior Carvings</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Interior Carvings</h4>
+                                <p>Beautiful interior decorative carvings</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🌿 Exterior Carvings</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Exterior Carvings</h4>
+                                <p>Weather-resistant exterior decorative elements</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🎨 Inlay Work</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Inlay Work</h4>
+                                <p>Intricate inlay designs and patterns</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🏛️ Ceiling Designs</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Ceiling Designs</h4>
+                                <p>Ornate ceiling carvings and moldings</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Items Category -->
+                <div class="category-section" data-category="specials">
+                    <div class="category-header">
+                        <h3>Special Items</h3>
+                        <p>Unique carved items and custom pieces</p>
+                    </div>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🕉️ Idols</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Idols</h4>
+                                <p>Sacred idols and religious sculptures</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🎭 Decorative Panels</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Decorative Panels</h4>
+                                <p>Artistic panels for walls and partitions</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🪟 Window Shutters</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Window Shutters</h4>
+                                <p>Traditional and modern window shutters</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🎁 Gift Products</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Gift Products</h4>
+                                <p>Handcrafted wooden gifts and keepsakes</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🏆 Mementos</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Mementos</h4>
+                                <p>Custom mementos for special occasions</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Custom Services Category -->
+                <div class="category-section" data-category="custom">
+                    <div class="category-header">
+                        <h3>Custom Services</h3>
+                        <p>Bespoke woodworking solutions</p>
+                    </div>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">📝 Name Boards</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Name Boards</h4>
+                                <p>Personalized wooden name boards</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🖼️ Picture Frames</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Picture Frames</h4>
+                                <p>Custom carved picture frames</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🛏️ Mantels & Headboards</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Mantels & Headboards</h4>
+                                <p>Elegant mantels and bed headboards</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🏛️ Pooja Mandapams</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Pooja Mandapams</h4>
+                                <p>Traditional prayer room structures</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Industrial Services Category -->
+                <div class="category-section" data-category="industrial">
+                    <div class="category-header">
+                        <h3>Industrial Services</h3>
+                        <p>Professional woodworking and cutting services</p>
+                    </div>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">⚡ Laser Cutting</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Laser Cutting</h4>
+                                <p>Precision laser cutting services</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🔧 Prototyping</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Prototyping</h4>
+                                <p>Product development and prototyping</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">📦 Custom Storage</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Custom Storage</h4>
+                                <p>Modular storage solutions</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="placeholder-image">🖥️ CNC Machining</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>CNC Machining</h4>
+                                <p>Computer-controlled precision cutting</p>
+                                <button class="btn btn--outline btn--sm quick-view-btn">Quick View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Master Wood Creations</h2>
+                    <p>Master Wood Creations has been crafting exceptional woodwork for over two decades. Our skilled artisans combine traditional techniques with modern precision to create stunning wooden masterpieces that stand the test of time.</p>
+                    <p>Specializing in custom doors, staircase components, religious artifacts, and decorative carvings, we serve both residential and commercial clients with unmatched quality and craftsmanship.</p>
+                    
+                    <div class="services-list">
+                        <h3>Our Services</h3>
+                        <div class="services-grid-about">
+                            <div class="service-item">✨ Custom Wood Carving</div>
+                            <div class="service-item">🚪 Door Manufacturing</div>
+                            <div class="service-item">🏛️ Staircase Components</div>
+                            <div class="service-item">🕉️ Religious Artifacts</div>
+                            <div class="service-item">🎭 Decorative Panels</div>
+                            <div class="service-item">⚡ Laser Cutting Services</div>
+                            <div class="service-item">🔧 Furniture Restoration</div>
+                            <div class="service-item">🏗️ Architectural Woodwork</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mission">
+                        <h3>Our Mission</h3>
+                        <p>To preserve the art of traditional woodworking while embracing modern techniques to deliver exceptional products that exceed our clients' expectations.</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image">
+                        <span>🪵 Master Craftsman at Work</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-subtitle">Ready to start your custom woodworking project? Contact us for a consultation.</p>
+            
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="category" class="form-label">Product Interest</label>
+                            <select id="category" name="category" class="form-control">
+                                <option value="">Select category</option>
+                                <option value="doors">Doors</option>
+                                <option value="staircase">Staircase Components</option>
+                                <option value="carvings">Wood Carvings</option>
+                                <option value="specials">Special Items</option>
+                                <option value="custom">Custom Services</option>
+                                <option value="industrial">Industrial Services</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="details" class="form-label">Project Details</label>
+                            <textarea id="details" name="details" class="form-control" rows="4" placeholder="Tell us about your project requirements..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Inquiry</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <h3>Business Information</h3>
+                        <div class="contact-item">
+                            <strong>📍 Address:</strong>
+                            <p>456 Craftsman Avenue<br>Woodville, ST 54321</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📞 Phone:</strong>
+                            <p><a href="tel:+15559876543">(555) 987-6543</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>✉️ Email:</strong>
+                            <p><a href="mailto:info@masterwoodcreations.com">info@masterwoodcreations.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="hours">
+                        <h3>Business Hours</h3>
+                        <div class="hours-list">
+                            <div class="hour-item">
+                                <span>Monday - Friday:</span>
+                                <span>8:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="hour-item">
+                                <span>Saturday:</span>
+                                <span>9:00 AM - 4:00 PM</span>
+                            </div>
+                            <div class="hour-item">
+                                <span>Sunday:</span>
+                                <span>By Appointment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick View Modal -->
+    <div id="quickViewModal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <div class="placeholder-image" id="modalImage">Product Image</div>
+                </div>
+                <div class="modal-info">
+                    <h3 id="modalTitle">Product Title</h3>
+                    <p id="modalDescription">Product description will appear here.</p>
+                    <div class="modal-actions">
+                        <button class="btn btn--primary">Request Quote</button>
+                        <button class="btn btn--outline">More Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Master Wood Creations</h3>
+                    <p>Premium Wood Carving & Custom Woodworks</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#categories">Products</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>(555) 987-6543</p>
+                    <p>info@masterwoodcreations.com</p>
+                    <p>456 Craftsman Avenue, Woodville, ST 54321</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Master Wood Creations. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
